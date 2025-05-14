@@ -154,7 +154,7 @@ export default function Home() {
                         </Button>
                       </TransitionLink>
                       <ScrollToSection targetId="benefits">
-                        <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
+                        <Button size="lg" className="bg-luxury-gold hover:bg-luxury-gold/90 text-black">
                           Learn More
                         </Button>
                       </ScrollToSection>

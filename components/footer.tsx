@@ -49,13 +49,13 @@ export default function Footer() {
               Empowering women to build wealth and achieve success in all areas of life.
             </p>
             <div className="flex space-x-4">
-              <Link href="#" className="text-gray-400 hover:text-white transition-colors">
+              <Link href="https://www.facebook.com/bisiakintayotv/" className="text-gray-400 hover:text-white transition-colors">
                 <Facebook className="h-5 w-5" />
               </Link>
-              <Link href="#" className="text-gray-400 hover:text-white transition-colors">
+              <Link href="https://www.instagram.com/bisiakintayo/" className="text-gray-400 hover:text-white transition-colors">
                 <Instagram className="h-5 w-5" />
               </Link>
-              <Link href="#" className="text-gray-400 hover:text-white transition-colors">
+              <Link href="https://www.linkedin.com/in/bisiakintayo/" className="text-gray-400 hover:text-white transition-colors">
                 <Linkedin className="h-5 w-5" />
               </Link>
             </div>

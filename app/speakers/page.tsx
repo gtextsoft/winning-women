@@ -49,21 +49,21 @@ export default function SpeakersPage() {
     {
       name: "Mrs. Jumoke Shotonwa",
       title: "Founder of Kwasee Style Company",
-      image: "/placeholder.svg?height=400&width=400",
+      image: "/images/Shotonwa.jpg",
       bio: "Founder of Kwasee Style Company and Co-founder of The Lagos Wardrobe & Exhibition (TLWE). With over 15 years in the fashion industry, Mrs. Shotonwa has built a brand that caters to high-profile clients across Africa.",
       topic: "Building a Luxury Brand in a Competitive Market",
     },
     {
       name: "Mrs. Kiki Okewale",
       title: "CEO of Hope by Kiki Okewale",
-      image: "/placeholder.svg?height=400&width=400",
+      image: "/images/kiki.jpg",
       bio: "CEO of Hope by Kiki Okewale, Co-founder of Teledoc App and WFM 91.7, and Founder of WhatRybe. Mrs. Okewale has successfully built multiple businesses across different industries.",
       topic: "Diversifying Your Income: Managing Multiple Business Ventures",
     },
     {
       name: "Pastor (Mrs) Seun Osigbesan",
       title: "Actor | Creative Director",
-      image: "/placeholder.svg?height=400&width=400",
+      image: "/images/Seun.jpg",
       bio: "Actor, Creative Director of Styled by Zsheunic, Author, Filmmaker, and Founder of Zsheunic Mentorship Academy (ZMA). Mrs. Osigbesan has mentored hundreds of women in the creative industry.",
       topic: "Balancing Faith, Family, and Business: The Complete Woman",
     },
@@ -109,7 +109,7 @@ export default function SpeakersPage() {
                         src={speaker.image || "/placeholder.svg"}
                         alt={speaker.name}
                         fill
-                        className="object-cover"
+                        className={`object-cover ${speaker.name === "Mrs. Kiki Okewale" ? "object-[center_20%]" : "object-top"}`}
                         priority={index === 0}
                       />
                     </div>
