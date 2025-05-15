@@ -148,7 +148,7 @@ export default function Home() {
 
                   <SectionTransition direction="up" delay={1}>
                     <div className="flex flex-col sm:flex-row gap-4">
-                      <TransitionLink href="/register" animation="left">
+                      <TransitionLink href="https://selar.com/thewinningwoman" animation="left">
                         <Button size="lg" className="bg-luxury-gold hover:bg-luxury-gold/90 text-black">
                           Register Now
                         </Button>
@@ -290,7 +290,7 @@ export default function Home() {
 
             <SectionTransition direction="up" delay={0.3}>
               <div className="flex justify-center mt-8">
-                <TransitionLink href="/register" animation="up">
+                <TransitionLink href="https://selar.com/thewinningwoman" animation="up">
                   <Button size="lg" className="bg-luxury-red hover:bg-luxury-red/90 text-white">
                     Register Now
                   </Button>

@@ -164,7 +164,7 @@ export default function SchedulePage() {
                 <p className="text-xl max-w-3xl mx-auto mb-8">
                   Don't miss this opportunity to learn from these amazing speakers and transform your life and business.
                 </p>
-                <TransitionLink href="/register" animation="up">
+                <TransitionLink href="https://selar.com/thewinningwoman" animation="up">
                   <Button size="lg" className="bg-white text-luxury-red hover:bg-white/90">
                     Register Now
                   </Button>

@@ -161,7 +161,7 @@ export default function FaqPage() {
                 <p className="text-xl max-w-3xl mx-auto mb-8">
                   Secure your spot at The Winning Woman 2.0 and transform your life and business.
                 </p>
-                <TransitionLink href="/register" animation="up">
+                <TransitionLink href="https://selar.com/thewinningwoman" animation="up">
                   <Button size="lg" className="bg-white text-luxury-red hover:bg-white/90">
                     Register Now
                   </Button>

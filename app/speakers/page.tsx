@@ -146,7 +146,7 @@ export default function SpeakersPage() {
                   Don't miss this opportunity to hear their stories, learn from their experiences, and connect with them
                   in person.
                 </p>
-                <TransitionLink href="/register" animation="up">
+                <TransitionLink href="https://selar.com/thewinningwoman" animation="up">
                   <Button size="lg" className="bg-white text-luxury-red hover:bg-white/90">
                     Register Now
                   </Button>

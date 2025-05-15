@@ -184,7 +184,7 @@ export default function AboutPage() {
                   Limited to 100 women to ensure quality networking and personalized attention. Don't miss this
                   opportunity to transform your life and business!
                 </p>
-                <TransitionLink href="/register" animation="up">
+                <TransitionLink href="https://selar.com/thewinningwoman" animation="up">
                   <Button size="lg" className="bg-white text-luxury-red hover:bg-white/90">
                     Register Now
                   </Button>

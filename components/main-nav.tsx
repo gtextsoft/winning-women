@@ -64,7 +64,7 @@ export default function MainNav() {
         { name: "Home", href: "#hero", isSection: true },
         { name: "Benefits", href: "#benefits", isSection: true },
         { name: "Testimonials", href: "#testimonials", isSection: true },
-        { name: "Register", href: "#register", isSection: true },
+        { name: "Register", href: "https://selar.com/thewinningwoman", isSection: true },
         { name: "About", href: "/about", isSection: false },
         { name: "Speakers", href: "/speakers", isSection: false },
         { name: "FAQ", href: "/faq", isSection: false },
@@ -145,7 +145,7 @@ export default function MainNav() {
             transition={{ delay: 0.2 }}
             className="hidden md:block"
           >
-            <TransitionLink href="/register" animation="left">
+            <TransitionLink href="https://selar.com/thewinningwoman" animation="left">
               <Button
                 className={`${
                   isScrolled
@@ -214,7 +214,7 @@ export default function MainNav() {
                 </motion.div>
               ))}
               <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.5 }}>
-                <TransitionLink href="/register" animation="left" className="block w-full">
+                <TransitionLink href="https://selar.com/thewinningwoman" animation="left" className="block w-full">
                   <Button className="bg-luxury-red hover:bg-luxury-red/90 w-full">Register Now</Button>
                 </TransitionLink>
               </motion.div>
